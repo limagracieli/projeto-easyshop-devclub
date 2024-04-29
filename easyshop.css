@@ -15,7 +15,7 @@ div {
 .firstsection {
     display: inline-block;
     width: 60%;
-    margin-top: 15%;
+    margin-top: 10%;
     padding-left: 136px;
 
 }
@@ -52,9 +52,10 @@ button {
 }
 img {
     position: relative;
-    top: 20%;
+    top:20%;
     right: 130px;
-    margin-top: 20%;
+    margin-top: 10%;
+    width: 70%;
 }
 
 button:hover {
@@ -92,7 +93,7 @@ a:active {
     }
     img {
         position: static;
-        margin: 46px 53px 0 51px;
+        margin: 35px 53px 0 51px;
         width: 60%;
         
     }

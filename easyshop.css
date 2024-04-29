@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400px;
+    color: #5D5D7D;
+}
+
+div {
+    width: 100vw;
+    height: 100vh;
+}
+
+.firstsection {
+    display: inline-block;
+    width: 60%;
+    margin-top: 15%;
+    padding-left: 136px;
+
+}
+h1 {
+    font-size: 70px;
+    line-height: 80px;
+    width: 410px;
+
+}
+p {
+    font-size: 28px;
+    line-height: 48px;
+    opacity: 0.6;
+    width: 540px;
+}
+button {
+    width: 269px;
+    height: 62px;
+    background-color: #9499EA;
+    box-shadow: (0px 10px 24px rgba(148, 153, 234, 0.10));
+    border: none;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.secondsection {
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    min-height: 100vh;
+    width: 40%;
+    position: absolute;
+}
+img {
+    position: relative;
+    top: 20%;
+    right: 130px;
+    margin-top: 20%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+header {
+    margin: 24px 0 0 28px;
+}
+a {
+    margin-right: 41px;
+    font-size: 28px;
+    cursor: pointer;
+    
+}
+a:nth-child(2) {
+    opacity: 0.4;
+}
+a:active {
+    opacity: 0.8;
+}
+@media screen and (max-width:900px) {
+    .firstsection {
+        width: 100%;
+        height: 50%;
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    .secondsection {
+        width: 100%;
+        min-height: none;
+        height: auto;
+        display: block;
+        position: static;
+    }
+    img {
+        position: static;
+        margin: 46px 53px 0 51px;
+        width: 60%;
+        
+    }
+    header {
+        display: none;
+    }
+    h1 {
+        font-size: 38px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+    }
+    p {
+        text-align: center;
+        font-size: 20px;
+        width: auto;
+        line-height: 24px;
+        margin: 15px 40px;
+    }
+    button {
+        margin: 0 auto;
+        display:block;
+
+    }
+}
